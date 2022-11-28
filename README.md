@@ -35,4 +35,6 @@ print(telp.values())
 ### Tampilkan daftar Nama dan nomornya
 
 print(telp.items())
+![Untitled](https://user-images.githubusercontent.com/115911604/204180698-82607575-e2a9-4319-8464-48b280fa037e.png)
+
 
