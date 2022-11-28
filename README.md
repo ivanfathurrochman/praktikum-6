@@ -80,16 +80,9 @@ tadi dengan data 'nama' sebagai keys dan sisanya
 
 ![gambar1](https://user-images.githubusercontent.com/115911604/204181178-b2492396-f841-4512-93cd-9d895cd6a4bc.png)
 
-### Membuat syntax untuk menghapus data.
-elif List.lower() == 'h':
-        print("Hapus Data")
-        nama = input("Masukkan Nama  : ")
-        if nama in Data.keys():
-            del Data[nama]
-        else:
-            print("Nama {0} Tidak Ditemukan".format(nama))
-            
-            ### Membuat syntax untuk mencari data
+
+### Membuat syntax untuk mencari data
+
 elif List.lower() == 'c':
         print("Cari Data")
         nama = input("Masukkan Nama : ")
@@ -106,7 +99,8 @@ elif List.lower() == 'c':
             print("Nama {0} Tidak Ditemukan".format(nama))
             
             
-          ### Membuat syntax untuk melihat atau menampilkan data.
+### Membuat syntax untuk melihat atau menampilkan data.
+
 elif List.lower() == 'l':
         if Data.items():
             print("="*78)
@@ -130,4 +124,5 @@ elif List.lower() == 'l':
             print("="*78)
             
             
+           
 ### Apabila kita menginput 'l' maka sistem akan menampilkan data - data yang sudah kita masukkan. Jika kita belum memasukkan data maka outputnya menjadi "TIDAK ADA DATA".
