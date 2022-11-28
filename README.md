@@ -126,3 +126,7 @@ elif List.lower() == 'l':
             
            
 ### Apabila kita menginput 'l' maka sistem akan menampilkan data - data yang sudah kita masukkan. Jika kita belum memasukkan data maka outputnya menjadi "TIDAK ADA DATA".
+
+![foto8](https://user-images.githubusercontent.com/115911604/204182244-228b9788-b2ee-4dde-bc2e-c01935d35763.png)
+
+### Apabila kita menginput 'k' maka program akan langsung berhenti.
