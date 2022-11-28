@@ -89,7 +89,7 @@ elif List.lower() == 'h':
         else:
             print("Nama {0} Tidak Ditemukan".format(nama))
             
-            Membuat syntax untuk mencari data
+            ### Membuat syntax untuk mencari data
 elif List.lower() == 'c':
         print("Cari Data")
         nama = input("Masukkan Nama : ")
@@ -106,7 +106,7 @@ elif List.lower() == 'c':
             print("Nama {0} Tidak Ditemukan".format(nama))
             
             
-            Membuat syntax untuk melihat atau menampilkan data.
+          ### Membuat syntax untuk melihat atau menampilkan data.
 elif List.lower() == 'l':
         if Data.items():
             print("="*78)
