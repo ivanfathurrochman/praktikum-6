@@ -130,3 +130,9 @@ elif List.lower() == 'l':
 ![foto8](https://user-images.githubusercontent.com/115911604/204182244-228b9788-b2ee-4dde-bc2e-c01935d35763.png)
 
 ### Apabila kita menginput 'k' maka program akan langsung berhenti.
+
+![pp1](https://user-images.githubusercontent.com/115911604/204182792-59a57c5a-e6c3-42d1-9ec6-8a481d7250f1.png)
+
+### Jika kita menginputkan selain yang ada pada menu (t, u, h, c, l, k) maka kita akan diminta untuk memilih menu
+
+![pp2](https://user-images.githubusercontent.com/115911604/204182987-0bbcd5be-fcde-4d83-9bf2-9976c29d89ac.png)
