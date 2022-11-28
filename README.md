@@ -77,3 +77,57 @@ Data[nama] = nim, tugas, uts, uas, akhir
 Disini apabila kita menginputkan 't' maka kita akan diminta untuk menginputkan beberapa data. Data yang kita inputkan akan masuk ke dictionary 'Data' yang telah dibuat 
 
 tadi dengan data 'nama' sebagai keys dan sisanya
+
+![gambar1](https://user-images.githubusercontent.com/115911604/204181178-b2492396-f841-4512-93cd-9d895cd6a4bc.png)
+
+### Membuat syntax untuk menghapus data.
+elif List.lower() == 'h':
+        print("Hapus Data")
+        nama = input("Masukkan Nama  : ")
+        if nama in Data.keys():
+            del Data[nama]
+        else:
+            print("Nama {0} Tidak Ditemukan".format(nama))
+            
+            Membuat syntax untuk mencari data
+elif List.lower() == 'c':
+        print("Cari Data")
+        nama = input("Masukkan Nama : ")
+        if nama in Data.keys():
+            print("="*73)
+            print("|                             Daftar Mahasiswa                          |")
+            print("="*73)
+            print("| Nama            |       NIM       |  UTS  |  UAS  |  Tugas  |  Akhir  |")
+            print("="*73)
+            print("| {0:15s} | {1:15d} | {2:5d} | {3:5d} | {4:7d} | {5:7.2f} |"
+                  .format(nama, nim, uts, uas, tugas, akhir))
+            print("="*73)
+        else:
+            print("Nama {0} Tidak Ditemukan".format(nama))
+            
+            
+            Membuat syntax untuk melihat atau menampilkan data.
+elif List.lower() == 'l':
+        if Data.items():
+            print("="*78)
+            print("|                               Daftar Mahasiswa                             |")
+            print("="*78)
+            print("|No. | Nama            |       NIM       |  UTS  |  UAS  |  Tugas  |  Akhir  |")
+            print("="*78)
+            i = 0
+            for j in Data.items():
+                i += 1
+                print("| {no:2d} | {0:15s} | {1:15d} | {2:5d} | {3:5d} | {4:7d} | {5:7.2f} |"
+                      .format(j[0][:13], j[1][0], j[1][1], j[1][2], j[1][3], j[1][4], no=i))
+            print("=" * 78)
+        else:
+            print("="*78)
+            print("|                               Daftar Mahasiswa                             |")
+            print("="*78)
+            print("|No. | Nama            |       NIM       |  UTS  |  UAS  |  Tugas  |  Akhir  |")
+            print("="*78)
+            print("|                                TIDAK ADA DATA                              |")
+            print("="*78)
+            
+            
+### Apabila kita menginput 'l' maka sistem akan menampilkan data - data yang sudah kita masukkan. Jika kita belum memasukkan data maka outputnya menjadi "TIDAK ADA DATA".
